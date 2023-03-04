@@ -104,3 +104,42 @@ li {
      }
     
 }
+
+.firstbox {
+    background-image: url("./assets/ultraboost-background-cut.jpg");
+    background-size: cover;
+
+}
+
+section {
+    width: 100%;
+    height: 600px;
+}
+
+.firstBoxBigText {
+    font-size: 75px;
+
+}
+
+.firstbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0.7em;
+}
+
+.firstBoxButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+
+}
