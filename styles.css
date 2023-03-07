@@ -39,6 +39,10 @@
     margin: 15px auto;
 }
 
+    
+.navThings a:hover {
+    color: gray;
+}
 
 .togglecheck {
     position: absolute;
@@ -66,59 +70,23 @@ li {
 }
 
 
-@media screen and (min-width: 768px) {
-
-
-    .navBar{
-        color: black;
-        text-decoration: none;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 0;
-        height: 80px;
-        width: 100%;
-        align-items: center;
-        
-    }
-    
-    .navThings a:hover {
-        color: gray;
-    }
-    
-    .navThings {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-    }
-    
-    .toggleimg {
-        display: none;
-    }
-
-    #toggle {
-        display: none;
-     }
-     
-     #toggle:checked + ul.navThings {
-         display: flex;
-     }
-    
-}
-
 .firstbox {
-    background-image: url("./assets/ultraboost-background-cut.jpg");
+    background-image: url("./assets/ultraboost-background-2-copy-cut.jpg");
     background-size: cover;
-
 }
 
-section {
+.firstbox{
     width: 100%;
-    height: 600px;
+    height: 450px;
 }
 
 .firstBoxBigText {
-    font-size: 75px;
+    font-size: 55px;
+}
 
+.firstBoxText {
+    font-weight: 100;
+    font-size: 15px;
 }
 
 .firstbox {
@@ -141,5 +109,117 @@ section {
     width: 120px;
     height: 40px;
     margin: 10px;
+    cursor: pointer;
+}
 
+.secondBox {
+    background-image: url("./assets/legins-background-2.jpg");
+    background-size: cover;
+}
+
+.secondBox{
+    width: 100%;
+    height: 550px;
+}
+
+.secondBoxBigText {
+    font-size: 55px;
+    color: white;
+}
+
+.secondBoxText {
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.secondBoxButton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.secondBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0.7em;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    .navBar{
+        color: black;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 80px;
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    
+    .navThings {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .toggleimg {
+        display: none;
+    }
+
+    #toggle {
+        display: none;
+     }
+     
+     #toggle:checked + ul.navThings {
+         display: flex;
+     }
+
+     .firstbox {
+        background-image: url("./assets/ultraboost-background-2-copy.jpg");
+        background-size: cover;
+    }
+
+    .firstBoxBigText {
+        font-size: 75px;
+    }
+
+    .firstBoxText {
+        font-size: 20px
+    }
+
+    .secondBoxBigText {
+        font-size: 75px;
+        color: white;
+    }
+
+    .secondBoxText {
+        font-size: 20px;
+    }
+
+    .secondBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        align-content: flex-start;
+        padding: 1.5em;
+    }
+    
 }
