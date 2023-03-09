@@ -36,7 +36,7 @@
 
 .navThings {
     text-align: center;
-    
+    margin: 15px auto;
 }
 
     
@@ -62,43 +62,22 @@
 .navComponets {
     color: black;
     text-decoration: none;
-    
+    margin: 20px;
 }
 
 li {
     margin: 5px;
 }
 
-.thirdBox {
- 
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 50px 250px;
-    width: 100%;
-}
-
-.ThirdBoxPic {
-    width: 100%;
-    height: 100%;
-}
-
-.thirdBoxText {
-    grid-column: 1/4;
-    display: flex;
-    align-items: center;
-    font-size: 30px;
-    padding-left: 2em;
-}
-
 
 .firstbox {
     background-image: url("./assets/ultraboost-background-2-copy-cut.jpg");
-    background-size: cover;
+    background-size: 100%;
 }
 
 .firstbox{
     width: 100%;
-    height: 450px;
+    height: 470px;
 }
 
 .firstBoxBigText {
