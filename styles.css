@@ -157,7 +157,7 @@ li {
 }
 
 
-.h3text {
+h3 {
     display: flex;
     padding: 0.6em;
 }
@@ -215,7 +215,7 @@ li {
     padding: 12px;
 }
 
-div .fifthBoxText {
+p .fifthBoxText {
     font-weight: 100;
 }
 
@@ -226,7 +226,7 @@ div .fifthBoxText {
     font-weight: 100;
 }
 
-.footer {
+footer {
     background-color: black;
     color: grey;
     font-size: 13px;
@@ -236,11 +236,14 @@ div .fifthBoxText {
     align-items: center;
     width: 100%;
     height: 45px;
+    padding: 10px;
 }
 
 
 
 @media screen and (min-width: 410px) and (max-width: 768px) {
+
+
 
     .topPage {
         background-color: black;
@@ -337,6 +340,11 @@ div .fifthBoxText {
         padding: 1.5em;
     }
     
+    h3 {
+        font-size: 20px;
+        display: flex;
+        padding: 1em;
+    }
         
     .scroll {
         display: flex;
@@ -483,7 +491,7 @@ div .fifthBoxText {
         height: 100%;
     }
 
-    .h3text {
+    h3 {
         font-size: 25px;
         display: flex;
         padding: 1em;
@@ -522,14 +530,9 @@ div .fifthBoxText {
         padding: 12px;
     }
     
-    div .fifthBoxText {
-        font-weight: 100;
-    }
-    
     .fifthBoxText {
-        font-size: 1em;
+        font-size: 1.2em;
         padding: 18px;
-        font-size: 18px;
         font-weight: 100;
     }
 
